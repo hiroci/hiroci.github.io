@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(12, 11, 70);
+    font-family: "Helvetica";
+    font-size: 40pt;
+
+}
+img{
+    z-index: 1;
+    margin-left: 65%;
+    width: 30%;
+    height:50%;
+    top: 0%;
+    position: static;
+    border-radius: 30%;
+
+}
+
+
+.sidebar {
+    outline-color: rgba(73, 0, 209, 0.829);
+    outline-offset: 0px;
+    outline-style: solid;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 10%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgba(0, 9, 22, 0.247); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y:hidden;
+    padding-top: 20px;
+    
+  }
+
+.sidebar a {
+    
+    font-family: "Hauser";
+    padding: 30px 1px 1px 10px;
+    font-size: 25px;
+    color: rgb(163, 33, 72);
+    display: block;
+    text-decoration: none;
+    
+  
+    
+}
+
+  .sidebar a:hover {
+    color:rgb(12, 11, 70);
+  
+}
+  
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+    
+
+.paragrafo{
+    margin-left:200px;
+    margin-right:200px;
+}
+
+.textocentral{
+  margin-left: 12%;
+  font-family: "Hauser";
+  font-size:70px;
+  margin-top:-360px;
+
+
+}
+
+.textolongo{
+  margin-left: 12%;
+  font-family:"Helvetica";
+  font-size:30px;
+  color: rgba(255, 180, 202, 0.644);
+
+}
+
+h1{
+  color: #95163C;
+}
+
+
+
