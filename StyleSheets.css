@@ -12,12 +12,11 @@ img{
     top: 0%;
     position: static;
     border-radius: 30%;
-
 }
 
 
 .sidebar {
-    outline-color: rgba(73, 0, 209, 0.829);
+    outline-color: rgb(163, 33, 72);
     outline-offset: 0px;
     outline-style: solid;
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -47,7 +46,7 @@ img{
 }
 
   .sidebar a:hover {
-    color:rgb(12, 11, 70);
+    color:rgb(145, 4, 145);
   
 }
   
@@ -67,22 +66,31 @@ img{
 .textocentral{
   margin-left: 12%;
   font-family: "Hauser";
-  font-size:70px;
+  font-size:50pt;
   margin-top:-360px;
 
 
 }
 
 .textolongo{
+  margin-top: 10%;
   margin-left: 12%;
   font-family:"Helvetica";
-  font-size:30px;
+  font-size:23px;
   color: rgba(255, 180, 202, 0.644);
 
 }
 
 h1{
   color: #95163C;
+}
+
+
+
+
+@font-face{
+  font-family: "Hauser";
+  src:url(D:\usuarios\Hiro\Documents\Site\Fontes\Hauser.otf);
 }
 
 
