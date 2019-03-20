@@ -82,9 +82,14 @@ img{
   margin-left: 12%;
   font-family: "Hauser";
   font-size:50pt;
-  margin-top:-360px;
+  margin-top:-25%;
 
 
+}
+audio {
+  top: 100%;
+  margin-left:12%
+  
 }
 
 .textolongo{
