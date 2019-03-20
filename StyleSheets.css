@@ -87,8 +87,12 @@ img{
 
 }
 audio {
-  top: 100%;
-  margin-left:12%
+  
+  z-index: 0;
+    margin-left: 40%;
+    top: -25px;
+    position: static;
+    border-radius: 30%;
   
 }
 
