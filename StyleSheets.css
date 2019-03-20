@@ -56,6 +56,21 @@ img{
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
 }
+
+.sidebar b {
+    
+  font-family: "Hauser";
+  padding: 30px 1px 1px 10px;
+  font-size: 25px;
+  color: rgb(163, 33, 72);
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar b:hover{
+  color:rgb(145, 4, 145);
+  display: inline-block;
+}
     
 
 .paragrafo{
@@ -80,6 +95,7 @@ img{
   color: rgba(255, 180, 202, 0.644);
 
 }
+
 
 h1{
   color: #95163C;
