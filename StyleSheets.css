@@ -51,7 +51,7 @@ img{
 }
   
   
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  /*muda o formato da sidebar em telas pequenas*/
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
@@ -83,32 +83,66 @@ img{
   font-family: "Hauser";
   font-size:50pt;
   margin-top:-25%;
+  padding: 0% 0%  0% 0%;
 
 
 }
+
+
+.buttontext a{
+
+  background-color: blue;
+  width: 18%;
+  font-family: "Hauser";
+  font-size: 30px;
+  color: rgb(163, 33, 72);
+  display: block;
+  padding: 0% 0%  3% 0%;
+  margin-top: 0%;
+  text-decoration: none;
+  margin-left:30%;
+  
+}
+
+
+.buttontext div{
+  display: none;
+}
+
+.buttontext a:hover{
+  color:rgba(255, 180, 202, 0.644);
+  text-decoration: none;
+}
+.buttontext div:target{
+  display:block;
+}
+
 audio {
   
   z-index: 0;
-    margin-left: 40%;
-    top: -25px;
-    position: static;
-    border-radius: 30%;
-  
+  margin-left: 40%;
+  top: -25px;
+  position: static;
+  border-radius: 0%;
+
 }
 
-.textolongo{
-  margin-top: 10%;
-  margin-left: 12%;
-  font-family:"Helvetica";
-  font-size:23px;
-  color: rgba(255, 180, 202, 0.644);
+h2{
+margin-top: 10%;
+margin-left: 12%;
+font-family:"Helvetica";
+font-size:23px;
+color: rgba(255, 180, 202, 0.644);
 
 }
 
 
 h1{
-  color: #95163C;
+color: #95163C;
 }
+
+
+
 
 
 
